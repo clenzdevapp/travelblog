@@ -9,3 +9,5 @@ import uuid
 
 app=Flask(__name__)#MODEL
 #db.create_all()
+@app.route('/index', methods=['POST'])
+def index():
